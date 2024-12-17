@@ -17,16 +17,19 @@ void main() {
   dynamic s3 = 124.5;
 
   // 실행할때의 자료형을 알 수 있다.
-  print(k1.runtimeType);
-  print(k2.runtimeType);
-  print(k3.runtimeType);
+  print(s1.runtimeType);
+  print(s2.runtimeType);
+  print(s3.runtimeType);
 
   // var 와 dynamic의 차이점
   dynamic kor = "국어점수";
+  print(kor);
   kor = 95;
+  print(kor);
 
   // var는 처음 지정한 자료형을 그대로 유지
   var eng = "영어점수";
+  print(eng);
 
   // 중간에 처음 지정한 자료형이 아니면 오류
   //eng = 85
